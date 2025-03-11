@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #21253B;
+    color:#F1F4FC;
+  }
+
+.code  {
+    background-color: black;
+    height: 4vh;
+    margin-bottom: 55px;
+    color: #7D2A37;
+}
+
+.troubleshooting {
+    margin-top: 100px;
+}
+
+.step1{
+    margin-bottom: 10px;
+}
+
+.step2{
+    margin-top: 10px;
+}
+
+.step3{
+    margin-top: 10px;
+}
+
+.step4{
+    margin-top: 10px;
+}
+
+
+  .container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  
+  #navbar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+  
+  #navbar header h1 {
+    text-align: center;
+    border-bottom: 1px solid white;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #navbar ul li {
+    margin: 10px 0;
+    margin-bottom: 50px;
+    margin-top: 40px;
+
+  }
+  
+  #navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  #navbar ul li a:hover {
+    color: #657AFF;
+  }
+  
+  #navbar ul li a:active {
+    color: #888;
+  }
+  
+  /* Main content styling */
+  #main-doc {
+    margin-left: 300px; /* Leave space for the TOC on the left */
+    padding: 20px;
+    width: calc(100% - 350px); /* Adjust content width to fit */
+  }
+  
+  .main-section {
+    margin-bottom: 70px;
+  }
+
+  .hardware , .software {
+    font-size : 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .main-section header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .main-section p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  
+  .main-section {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    
+    #navbar {
+      width: 100%;
+      position: relative;
+      height: auto;
+    }
+    
+    #main-doc {
+      margin-left: 0;
+    }
+  }
+  
+ul li , ol li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
