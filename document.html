@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation</title>    
+</head>
+<body>
+    <main class="main-doc" id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>
+                <h1>Introduction</h1>
+            </header>
+            <p>This web application helps users manage and track their daily tasks.</p>
+            <p>The goal is to increase productivity by organizing tasks, setting deadlines, and integrating reminders.</p>
+            <p>The system is modular, ensuring easy maintenance and scalability.</p>
+            <h2>Target Audience</h2>
+            <p>This application is beneficial for different types of users.</p>
+            <ul>
+                <li>Individuals needing a simple task manager.</li>
+                <li>Small teams tracking shared tasks.</li>
+                <li>Organizations managing internal projects.</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="System_Requirements">
+            <header>
+                <h1>System Requirements</h1>
+            </header>
+            <p>The application requires specific hardware and software to run smoothly.</p>
+            <h2>Hardware:</h2>
+            <ul>
+                <li>Minimum: 2 GB RAM, 100 MB storage.</li>
+                <li>Recommended: 4 GB RAM, 500 MB storage.</li>
+            </ul>
+            <h2>Software:</h2>
+            <p>The software requirements ensure compatibility with modern operating systems.</p>
+            <ul>
+                <li>OS: Windows, macOS, Linux.</li>
+                <li>Browser: Latest Chrome or Firefox.</li>
+            </ul>
+            <h2>Dependencies:</h2>
+            <p>The application relies on the following dependencies:</p>
+            <ul>
+                <li>Frontend: React.js, Axios, Bootstrap.</li>
+                <li>Backend: Node.js, Express.js, MongoDB.</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Setup_and_Installation">
+            <header>
+                <h1>Setup and Installation</h1>
+            </header>
+            <p>Follow these steps to install the project:</p>
+            <ol>
+                <li>Clone the repository:</li>
+                <pre><code>git clone https://github.com/your-username/project-name.git</code></pre>
+                <li>Navigate to the project directory:</li>
+                <pre><code>cd project-name</code></pre>
+                <li>Install dependencies:</li>
+                <pre><code>npm install</code></pre>
+                <li>Run the application:</li>
+                <pre><code>npm start</code></pre>
+            </ol>
+            <p>After completing these steps, your application should be running locally.</p>
+        </section>
+
+        <section class="main-section" id="Code_Structure_and_Design">
+            <header>
+                <h1>Code Structure and Design</h1>
+            </header>
+            <p>The project follows a modular structure for maintainability.</p>
+            <p>Each directory serves a specific function within the codebase.</p>
+            <p>Key directories:</p>
+            <ul>
+                <li><code>/components</code>: UI components.</li>
+                <li><code>/controllers</code>: Business logic.</li>
+                <li><code>/models</code>: Database schemas.</li>
+                <li><code>/routes</code>: API endpoints.</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Deployment_and_Troubleshooting">
+            <header>
+                <h1>Deployment and Troubleshooting</h1>
+            </header>
+            <p>Deploying the application ensures it is accessible to users.</p>
+            <h2>Deployment</h2>
+            <ol>
+                <li>Ensure dependencies are installed.</li>
+                <li>Deploy to Heroku, AWS, or similar.</li>
+                <li>Run <code>npm run build</code> for production.</li>
+                <li>Set up CI/CD pipelines.</li>
+            </ol>
+            <h2>Troubleshooting</h2>
+            <p>If issues arise, check the following:</p>
+            <ul>
+                <li>Check logs if the app doesn’t start.</li>
+                <li>Ensure database credentials are correct.</li>
+                <li>Use Sentry for error monitoring.</li>
+            </ul>
+            <p>Following these steps will help diagnose and resolve common errors.</p>
+        </section>
+    </main>
+
+    <nav id="navbar">
+        <header>
+            <h1>Table Of Contents</h1>
+        </header>
+        <ul>
+            <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+            <li><a href="#System_Requirements" class="nav-link">System Requirements</a></li>
+            <li><a href="#Setup_and_Installation" class="nav-link">Setup and Installation</a></li>
+            <li><a href="#Code_Structure_and_Design" class="nav-link">Code Structure and Design</a></li>
+            <li><a href="#Deployment_and_Troubleshooting" class="nav-link">Deployment and Troubleshooting</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
